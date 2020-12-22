@@ -23,7 +23,7 @@ ssh-add # add default files to agent
 ssh-add -l # lists private keys currently accessible to the agent
 
 # Local Forwarding - Connect my local machine port to process running on server at port
-ssh -L PORT:localhost:PORT USER@VM_IP
+ssh -L LOCAL_PORT:localhost:SERVER_PORT USER@VM_IP
 
 # Remote Forwarding - Connect my server port to process running on my local machine at port
 ssh -R PORT:localhost:PORT USER@VM_IP
