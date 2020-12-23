@@ -1,5 +1,8 @@
 # Basic Linux Commands
 
+alias # create an alias for a command
+alias command='cd ~; ls; cd -'
+
 apropos command # same as man -k keyword
 
 cat # concatenates and displays files
@@ -39,7 +42,11 @@ exit # exits the shell or your current session
 export # set environment variable
 export VAR="value"
 
+file <file> # determines file type
+
 groups # displays groups user is a part of
+
+help # get help for shell builtins
 
 ifconfig # configures and shows network interface parameters
 ifconfig -a
@@ -110,9 +117,15 @@ tree # displays tree structure
 tree -C #display in color
 tree -d # displays only directories
 
+type docker # indicate how a command name is interpreted
+
+uniq # report or omit repeated lines
+
 unset VAR # unsets environment variable
 
 wc file # displays the number of lines, words, and bytes in the file
+
+whatis ls # displays one line manual page descriptions
 
 which # shows location or full path to the command that you're executing
 which ls
