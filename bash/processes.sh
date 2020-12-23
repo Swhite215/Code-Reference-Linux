@@ -14,4 +14,9 @@ kill pid # kills a process
 kill -TERM pid # kills a process
 kill -15 pid # kills a process
 
+shutdown # shutdown or reboot the system
+halt 
+poweroff
+reboot
+
 command & # run a process in the background
