@@ -11,3 +11,7 @@ head myFile # output the first ten lines of a file
 tail myFile # output the last ten lines of a file
 
 tail -f myFile # follow the file as it is being written
+
+ln <file> link # creates either a hard or symbolic link
+
+wc  <file> # displays number of lines
